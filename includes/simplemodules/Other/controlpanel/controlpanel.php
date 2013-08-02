@@ -1,6 +1,9 @@
 <?php
 
-hbm_create('Control Panel');
+hbm_create('Control Panel', array(
+    'description' => 'Add control panel button to the menu.',
+    'version' => '1.1'
+));
 
 hbm_add_config_option('Url');
 
